@@ -25,7 +25,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-//require('dotenv').config();
+// require('dotenv').config();
 //console.log(dotenv);
 
 // require('dotenv').config();
@@ -34,8 +34,8 @@ import {
 // const RAZORPAY_KEY_ID = process.env?.RAZORPAY_KEY_ID ?? '';
 // const RAZORPAY_KEY_SECRET = process.env?.RAZORPAY_KEY_SECRET ?? '';
 
-console.log(process.env['RAZORPAY_KEY_ID']);
-console.log(process.env['RAZORPAY_KEY_SECRET']);
+console.log(process.env.RAZORPAY_KEY_ID);
+console.log(process.env.RAZORPAY_KEY_SECRET);
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
