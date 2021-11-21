@@ -160,6 +160,7 @@
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				B00F7F548E3C7362F040A247 /* [CP] Copy Pods Resources */,
+				7CFB0694DBFF2D744810A7C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +183,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				2388F5713C1C9B8E795BEE0B /* [CP] Copy Pods Resources */,
+				3FC5AF86891C24F69CD63651 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -277,6 +279,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNRazorpay/Pods-RNRazorpay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FC5AF86891C24F69CD63651 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNRazorpay/Pods-RNRazorpay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNRazorpay/Pods-RNRazorpay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNRazorpay/Pods-RNRazorpay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CFB0694DBFF2D744810A7C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNRazorpay-RNRazorpayTests/Pods-RNRazorpay-RNRazorpayTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNRazorpay-RNRazorpayTests/Pods-RNRazorpay-RNRazorpayTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNRazorpay-RNRazorpayTests/Pods-RNRazorpay-RNRazorpayTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AD019060FF3F3FF810FC0D13 /* [CP] Check Pods Manifest.lock */ = {
